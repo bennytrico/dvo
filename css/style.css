@@ -2680,7 +2680,7 @@ Header Style One
   height: 100%;
   width: 100%;
   content: "";
-  background-color: var(--bg-theme-color1);
+  background-color: var(--bg-theme-color4);
   border-right: 5px solid var(--border-theme-color2);
   -webkit-transform: skewx(-5deg);
           transform: skewx(-5deg);
