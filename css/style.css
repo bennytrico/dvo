@@ -48,10 +48,10 @@ License: copyright commercial
 @import url("tm-utility-classes.css");
 :root {
   --theme-color1: #1d1729;
-  --theme-color2: #7243f2;
-  --theme-color3: #ae8fff;
+  --theme-color2: #b8be33;
+  --theme-color3: #b8be33;
   --theme-color4: #f4f5fa;
-  --theme-color5: #6222cc;
+  --theme-color5: #b8be33;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
   --bg-theme-color3: var(--theme-color3);
@@ -9510,7 +9510,7 @@ Section Title
   color: #fff;
   z-index: 1;
   height: 40px;
-  width: 77px;
+  width: 124px;
   font-size: 10px;
   font-weight: 700;
   line-height: 20px;
