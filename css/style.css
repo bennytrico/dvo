@@ -2251,7 +2251,6 @@ Main Header
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2286,6 +2285,7 @@ Main Header
 .main-menu .navigation {
   position: relative;
   margin: 0px;
+  display: flex;
 }
 
 .main-menu .navigation > li {
