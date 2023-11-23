@@ -9551,6 +9551,7 @@ Section Title
   margin-top: -43px;
   display: block;
   margin-bottom: 5px;
+  padding-bottom: 40px;
 }
 .news-block .content-box .post-info .author-thumb {
   position: relative;
@@ -11674,7 +11675,7 @@ Page Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 110px 0 110px;
+  padding: 210px 0 110px;
   min-height: 250px;
 }
 @media only screen and (max-width: 768px) {
