@@ -731,8 +731,8 @@ li {
   margin-top: -60px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/icons/preloader.gif);
-  background-size: 48px;
+  background-image: url(../images/icons/alien.png);
+  background-size: 100px;
   content: "";
 }
 
@@ -744,10 +744,10 @@ li {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   color: var(--theme-color1);
   font-weight: 700;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-transition: none;
@@ -4465,7 +4465,7 @@ Section Title
   padding-left: 205px;
   min-height: 280px;
   height: 100%;
-  background-color: var(--bg-theme-color3);
+  background-color: var(--bg-theme-color1);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -5550,7 +5550,7 @@ Section Title
 }
 .about-section-five .image-column .image-2 {
   position: absolute;
-  right: 0;
+  right: -18px;
   bottom: 0;
   margin-bottom: 0;
 }
@@ -14273,4 +14273,79 @@ Sidebar
 }
 .footer-bottom .copyright-text a:hover {
   color: #ffffff;
+}
+
+.title-outer {
+  padding-top: 4em;
+}
+
+.line-height-1 {
+  line-height: 1.4em !important;
+}
+
+.auto-container.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title-location-datacenter {
+  display: block;
+  padding: 24px 40px;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  min-width: 270px;
+}
+
+.inner-box > .content-box > .title-location-datacenter > .address {
+  display: none;
+}
+
+.inner-box:hover > .content-box > .title-location-datacenter > .address {
+  display: block;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.image-komite {
+  display: flex;
+  justify-content: center;
+}
+
+.button-link {
+  background-color: var(--theme-color2);
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: white;
+  font-weight:bold;
+}
+
+.button-link:hover {
+  color: black;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.user-links li a {
+  line-height: 1.4em;
+}
+
+.banner-dvo {
+  position: relative;
+}
+
+.banner-dvo .desc {
+  position: absolute;
+  top: 47%;
+  left: 2em;
+  font-size: 55px;
+  font-weight: var(--h1-font-weight);
+  color: var(--text-color-bg-theme-color1);
+  line-height: 1.3em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.62);
 }
